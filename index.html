@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Star wars game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-
-</head>
-<body background="assets/images/thumb1.jpeg">
-	<h1>Star Wars RPG!</h1>
-	<br>
-	<div id="characters"></div>
-
-	<h2>Your Character</h2>
-
-	<div id="player"></div>
-
-	<h2>Enemies Available To Attack</h2>
+	<head>
+		<title>Crystal Collector!</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	</head>
+	<body background="assets/">
+		<div id=header>
+			<h1>CrystalsCollector!</h1>	
+		</div>
+		
+		<div id=main>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus maxime unde accusantium pariatur.
+			</p>
+			<br>
+			<p>
+			Deleniti illum aperiam esse autem nemo aut magnam consectetur, tenetur dolorum amet error quae voluptatem soluta neque.
+			</p>
+			<br>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus maiores eius expedita, illum.
+			</p> 
+			<br>
+			<p>
+			Facilis nostrum neque doloremque nam sit explicabo natus enim quos optio esse quidem perferendis exercitationem sint quibusdam.	
+			</p>
+		</div>
+		
+		<div id=box>
+			<div id=random></div>
+			<div id=winloss>
+	        	<p>Total Wins: </p>
+				<div id="totalWin">0</div>
+				<p>Total Losses: </p>
+				<div id="totalLoss">0</div> 
+			</div>
+		</div>
+		<br>
+		<div id=images>
 	
-	<div id="enemies"></div>
+				<button id = "greencrystal"><img src="assets/images/green.png" />
+				</button>
 
-	<h2>Fight Section</h2>
+				<button id = "yellowcrystal"><img src="assets/images/yellow.png" />
+				</button>
+
+				<button id = "whitecrystal"><img src="assets/images/white.png" />
+				</button>
+
+				<button id = "violetcrystal"><img src="assets/images/violet.png" />
+				</button>
 	
-	<button>Attack</button>
-	<h2>Defender</h2>
+		</div>
 
-	<div id="defender"></div>
+		<div id=announce>
+			<p>
+			Your score is:
+			</p>
+		</div>
+
+		<div id=number></div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script type="text/javascript" src="assets/javascript/game.js"></script>
-</body>
+
+
+
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
 </html>
