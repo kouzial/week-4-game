@@ -38,11 +38,9 @@ totalScore = value + totalScore;
 
 $("#number").html(totalScore);
 comparison();
-
-	});
+});
 
 function comparison () {
-
 
 	if ( totalScore == numberResult) {
 
@@ -54,7 +52,6 @@ function comparison () {
 
 	}
 	else if (totalScore>numberResult){
-
 		alert("You lose!")
 		totalLoss++;
 		$("#totalLoss").html(totalLoss);
